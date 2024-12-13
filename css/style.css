@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+	text-decoration: none;
+}
+ul , ol{
+	list-style-type: none;
+}
+.container{
+	height: 50px;
+	width: 1170px;
+	margin: 0 auto;
+}
+/* common css end */
+#menubar{
+padding: 15px 0;
+background-color: #4170F4;
+}
+.main{
+	display: flex;
+}
+.logo{
+	height: 100%;
+	width: 20%;
+}
+.logo p{
+	font-size: 40px;
+	color: white;
+}
+
+
+
+
+
+
+.menu{
+	padding: 10px 0;
+	width: 60%;
+	text-align: center;
+	
+}
+.menu ul li{
+	display: inline-block;
+}
+
+
+
+
+
+
+.menu ul li .drpdmenu{
+	visibility: hidden;
+	opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu ul li a{
+	padding: 0 15px;
+	color: white;
+	text-transform: capitalize;
+	font-size: 20px;
+	transition: all linear .4s;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+}
+.menu ul li a:hover{
+color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.icon{
+	padding: 10px 0px;
+	color: white;
+	font-size: 20px;
+	width: 20%;
+	text-align: end;
+	
+}
+.icon i{
+	padding: 0 15px;
+}
+.searchbar{
+	height: 100px;
+	width: 100%;
+	background-color:#E2EAF7;
+}
+.searchbar .searchbutton{
+	text-align: end;
+	padding: 20px 10px;
+}
+.searchbar .searchbutton input{
+	padding: 10px 0;
+	border: 2px solid #4170F4;
+}
+.searchbar .searchbutton i{
+	color:#4170F4;
+	padding-left: 10px;
+}
+
+
+
+
+.header{
+	height: 300px;
+	width: 100%;
+	background-color:#E2EAF7;
+	text-align: center;
+}
+
+.header h2{
+	color: #4170F4;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+}
+.header h2:hover{
+	background-color: #4170F4;
+    color: white;
+	display: inline-block;
+	padding: 10px;
+	transition: all linear .4s;
+	border-radius: 10px;
+}
+
+
+
+
+.header h1{
+	color: #4170F4;
+	font-size: 45px;
+	text-transform: uppercase;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+}
+.header h1:hover{
+	background-color: #4170F4;
+    color: white;
+	display: inline-block;
+	padding: 10px;
+	transition: all linear .4s;
+	border-radius: 10px;
+}
+
+
+
+.header h3{
+	color: #4170F4;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+}
+.header h3:hover{
+	background-color: #4170F4;
+	border-radius: 10px;
+    color: white;
+	display: inline-block;
+	transition: all linear .4s;
+	padding: 10px;
+}
